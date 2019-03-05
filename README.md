@@ -65,13 +65,11 @@ The following instructions were tested on:
 
 5. Open Matlab and type `mex -setup` in the command window and follow the instructions if no compiler is set.
 
-6. Open build.m and modify the first line to point to the EarthGRAM2016 directory.
+6. Run the script *build.m*. This will produce the mex file get_atm_density.mexxxx.
 
-7. Run the script. This will produce the mex file get_atm_density.mexxxx.
+7. Run test.m to check if everything works.
 
-8. Run test.m to check if everything works.
-
-9. For help, type `help get_atm_density` in the command window.
+8. For help, type `help get_atm_density` in the command window.
 
 ### Windows
 
@@ -109,13 +107,11 @@ The following instructions were tested on:
 
 8. Open Matlab and type `mex -setup` in the command window and follow the instructions if no compiler is set.
 
-9. Open build.m and modify the first line to point to the EarthGRAM2016 directory.
+9. Run the script *build.m*. This will produce the mex file get_atm_density.mexw64.
 
-10. Run the script. This will produce the mex file get_atm_density.mexw64.
+10. Run test.m to check if everything works.
 
-11. Run test.m to check if everything works.
-
-12. For help, type `help get_atm_density` in the command window.
+11. For help, type `help get_atm_density` in the command window.
 
 
 
